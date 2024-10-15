@@ -1,0 +1,68 @@
+.hero{
+    background: radial-gradient(rgb(0, 0, 90), var(--primary-color));
+    background-color: var(--primary-color);
+    height:100dvh;
+    color: rgb(116, 116, 116);
+
+}
+.hero-div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.hero-text h1{
+    padding-top: 10dvh;
+    font-size: 9dvw;
+    line-height: 9dvw;
+    text-transform: uppercase;
+    font-family: Arial black;
+}
+.hero-text p{
+    width: 60dvw;
+    padding: 0px 10px ;
+}
+.hero-image{
+    padding-top: 12dvh;
+}
+.hero-image img{
+    height: 25dvw;
+        padding-left: -10dvh;
+
+
+
+}
+.hireMe-button{
+    background-color:green;
+    border: none;
+    padding:5px 20px;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+@media (max-width: 999px) {
+    .hero-text{
+     position: absolute;
+     left: 1dvw;
+     bottom: 0;
+
+
+    }
+    .hero-text h1{
+    left: 10dvw;
+    font-size: 13dvw;
+    line-height: 17dvw;
+    text-transform: uppercase;
+    font-family: Arial black;
+}
+.hero-text p{
+    width: 90dvw;
+    text-align: justify;
+    padding-left: 1dvw;
+    
+
+}
+    
+}

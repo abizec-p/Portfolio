@@ -1,0 +1,217 @@
+
+.nav-bar{
+    display: flex;
+    width: 100dvw;
+    align-items: baseline;
+    padding: 10px 50px;
+}
+
+.menu-item{
+
+    display: flex;
+}
+.inactive{
+    display: flex;
+    color: whitesmoke;
+    margin-left: 65dvw;
+}
+.inactive li{
+    list-style: none;
+}
+.inactive li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px ;
+    transition: .3s;
+}
+.inactive li a:hover{
+     text-shadow: 0 0 10px green, 0 0 10px green;
+        color: green;
+
+}
+.active{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    z-index: 1  ;
+
+}
+.active li{
+    color: var(--primary-color);
+        padding: 10px 10px;
+        list-style: none;
+}
+.active li a{
+    color: #1e1e1e;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-menu ul{
+    margin-left: 72dvw;
+    margin-top: 1dvh;
+    z-index: 1;
+
+}
+.nav-menu ul li{
+    list-style: none;
+    align-items: baseline;
+    padding: 0px 10px;
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
+}
+.social-nav{
+    display: flex;
+}
+
+.nav-menu ul a {
+            text-decoration: none;
+            color: white;
+
+
+}
+.cross-button{
+    display: none;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    background-color: transparent;
+    border: none;
+
+}
+.cross-button div{
+
+
+}
+.cross-button div:nth-child(1){
+    height: 3px;
+width: 20px;
+background-color: #1e1e1e;
+transform: rotate(-45deg);
+
+
+}
+.cross-button div:nth-child(2){
+    height: 3px;
+width: 20px;
+background-color: #1e1e1e;
+transform: rotate(45deg);
+
+}
+.cross-button div:nth-child(3){
+display: none;
+height: 2px;
+width: 20px;
+background-color: white;
+
+}
+
+
+.hamburger {
+    display: none;
+    position: absolute;
+    top: 22px;
+    right: 45px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+
+}
+.hamburger div{
+height: 2px;
+width: 10px;
+background-color: white;
+margin: 3px 0;
+}
+
+/* responsive*/
+
+@media (max-width: 999px) {
+    .logo{
+        padding-top: 4dvh;
+        padding-left: 1dvw;
+    
+    }
+.top-nav{
+    display: flex;
+}
+.nav-bar{
+    display: flex;
+    padding: 0;
+  
+}
+  .menu-item{
+    display: none;
+}
+    .cross-button{
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    background-color: transparent;
+    border: none;
+
+}
+.cross-button div:nth-child(1){
+    height: 3px;
+width: 20px;
+background-color: #1e1e1e;
+transform: rotate(-45deg);
+
+
+}
+.cross-button div:nth-child(2){
+    height: 3px;
+width: 20px;
+background-color: #1e1e1e;
+transform: rotate(45deg);
+
+}
+.hamburger {
+    display: block;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+
+}
+.hamburger div{
+    display: block;
+height: 2px;
+width: 10px;
+background-color: white;
+margin: 3px 0;
+}
+.hamburger div:nth-child(1){
+    height: 2px;
+width: 20px;
+background-color: whitesmoke;
+margin-top: 10px;
+
+
+}
+.hamburger div:nth-child(2){
+    height: 2px;
+    margin-top: 2px;
+width: 20px;
+background-color: whitesmoke;
+
+}
+.hamburger div:nth-child(3){
+    height: 2px;
+    margin-top: 2px;
+width: 20px;
+background-color: whitesmoke;
+
+}
+.social-nav{
+    display: flex;
+}
+}
