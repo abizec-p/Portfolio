@@ -1,0 +1,145 @@
+.skillsSection{
+    height: 100%;
+   
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    
+}
+.skills div{
+    padding: 20px 20px;
+
+}
+.skillsText h1{
+    text-align: center;
+    margin: 10dvh 0;
+    padding: 20px 0;
+    font-size: 35px;
+}
+.skillsImages img{
+    height: 50px;
+    margin: 10px 20px;
+}
+.skillsImages{
+    display: flex;
+    justify-content: center;
+}
+.bottomLineSkills{
+    margin-top: 20dvh;
+    height: 2px ;
+    width: 40dvw;
+    background-color: rgb(56, 56, 56);
+    transform: translate(70%,0);
+}
+.skillsMainBody{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.skillsCard{
+    width: 25dvw;
+}
+
+.skillsContainerHeading h1{
+    background: radial-gradient(rgb(0, 0, 90), var(--primary-color));
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+.skillsContainerList div{
+    padding: 10px 20px;
+}
+.skillsContainerList img{
+    height: 100px;
+}
+.skillsContainer{
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    text-align: center;
+
+}
+.skillsContainer div{
+    padding: 20px 20px;
+}
+
+@media (max-width:999px) {
+    .skillsSection{
+    height: 100%;
+   
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    
+}
+.skills div{
+    padding: 20px 20px;
+
+}
+.skillsText h1{
+    text-align: center;
+    margin: 10dvh 0;
+    padding: 20px 0;
+    font-size: 4dvw;
+}
+.skillsImages img{
+    height: 20dvw;
+    margin: 10px 20px;
+}
+.skillsImages{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90dvw;
+    justify-content: center;
+}
+.bottomLineSkills{
+    display: none;
+}
+.skillsMainBody{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.skillsCard{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.skillsContainerHeading h1{
+    background: radial-gradient(rgb(0, 0, 90), var(--primary-color));
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    border-radius: 0;
+    font-size: 3dvw;
+    width:30dvw
+}
+.skillsContainerList div{
+    padding: 10px 20px;
+
+}
+.skillsContainerList img{
+    height: 20dvh;
+}
+.skillsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+
+}
+.skillsContainer div{
+    padding: 20px 20px;
+}
+    
+}

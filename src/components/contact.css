@@ -1,0 +1,139 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    color: #1e1e1e;
+    
+}
+.contactSocial{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.contactSocial div{
+    margin: 20px 20px;
+    font-size: 25px;
+    padding: 0;
+    background-color: transparent;
+
+}
+.contactSocial div:hover{
+filter: drop-shadow(0 0 10px rgb(0, 143, 0))
+drop-shadow(0 0 10px rgba(82, 255, 82, 0.486));   
+  transition: 0.3s;
+  color: green;
+
+}
+.contactHeading{
+    text-align: center;
+    padding-bottom: 60px ;
+
+     
+    
+}
+.contactHeading  h1{
+    margin: 30px 0;
+}
+.contactTextPart h1{
+    padding: 10px 0;
+
+}
+.contactTextPart li{
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 5dvw;
+list-style: none;
+padding: 10px 0;
+
+}
+.contactHeading p{
+    width: 60dvw;
+}
+
+
+
+
+@media (max-width:999px) {
+    .contact{
+    display: block;
+    height: 100%;
+    background-color: whitesmoke;
+    
+}
+.contactSocial {
+    color: black;
+}
+.contactHeading{
+    padding: 20px ;
+    text-align: left;
+    padding-bottom: 0 ;
+    color: black;
+
+     
+    
+}
+.contactTextPart h1{
+    color: #1e1e1e;
+    padding: 10px 0;
+
+}
+.contactTextPart li{
+list-style: none;
+padding: 10px 0;
+    color: #1e1e1e;
+
+}
+.contactHeading p{
+    width: 60dvw;
+}
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100dvw;
+}
+.contactFormContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: none;
+    padding: 40px 20px;
+    width: 100dvw;
+    height: 60dvh;
+    border-radius: 15px;
+}
+
+.contactFormContainer input{
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    border: none ;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(230, 230, 230);
+}
+.contactFormContainer textarea{
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    height: 20dvh;
+    border: none;
+    outline: none;
+        border-radius: 5px;
+
+}
+.contactSendButton{
+    padding: 10px 10px;
+    width: 15dvw;
+    margin-top: 10px;
+    background-color: #3d9fc5;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+    
+}

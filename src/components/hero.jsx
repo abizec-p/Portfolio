@@ -1,5 +1,4 @@
 import './hero.css'
-import heroImg from "../logo/images/duotone.jpg"
 import Navigation from './Navigation';
 
 

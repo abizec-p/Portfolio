@@ -1,5 +1,5 @@
-import yak from "../logo/images/yak.png";
-import Advertisement from "../logo/images/advert.png";
+import yak from "../assets/images/yak.png";
+import Advertisement from "../assets/images/advert.png";
 import "./project.css";
 export default function Projects() {
   return (
