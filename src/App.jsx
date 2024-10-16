@@ -18,7 +18,6 @@ function App() {
       <Profile />
       <Skills />
       <Contact/>
-      <div>Stupid Fuck</div>
     </>
   )
 }

@@ -16,7 +16,8 @@
     font-size: 9dvw;
     line-height: 9dvw;
     text-transform: uppercase;
-    font-family: Arial black;
+    font-family: Arial ;
+    font-weight: black;
 }
 .hero-text p{
     width: 60dvw;
@@ -39,7 +40,11 @@
     color: white;
     font-size: 18px;
     border-radius: 10px;
-    margin: 10px 10px;
+    margin: 10px 0px;
+}
+.hireMe-button a{
+    color: white;
+    text-decoration: none;
 }
 
 @media (max-width: 999px) {

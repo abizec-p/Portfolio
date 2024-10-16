@@ -1,6 +1,6 @@
 :root{
   font-family: Helvetica;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
     --primary-color : rgb(0, 0, 29);
 
 }

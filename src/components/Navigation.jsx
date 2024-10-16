@@ -2,6 +2,8 @@ import { useState } from "react";
 import "./navigation.css"
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
+
 
 
 
@@ -21,25 +23,31 @@ export default function Navigation() {
       <section className="top-nav">
         <div className="nav-bar">
           <div className="logo">
+            <span className="home-icon">
+              <a href="home">
+                {" "}
+                <FaHome />
+              </a>{" "}
+            </span>
             <h1>Abizec</h1>
           </div>
           <div>
             <ul className={isActive ? "active" : "inactive"}>
               <div className={isMenuItem ? "show-menu-item" : "menu-item"}>
                 <li>
-                  <a href="#">works </a>
+                  <a href="#project">works </a>
                 </li>
 
                 <li>
-                  <a href="#">about </a>
+                  <a href="#profileID">about </a>
                 </li>
 
                 <li>
-                  <a href="#">skills</a>
+                  <a href="#skillsID">skills</a>
                 </li>
 
                 <li>
-                  <a href="#">contact </a>
+                  <a href="#contactID">contact </a>
                 </li>
 
                 <div className="social-nav">
@@ -55,7 +63,7 @@ export default function Navigation() {
                     </a>
                   </li>
                 </div>
-                </div>
+              </div>
               <button
                 onClick={toggleClass}
                 className={isHamburger ? "cross-button" : "hamburger"}
@@ -67,7 +75,6 @@ export default function Navigation() {
             </ul>
           </div>
         </div>
-        
       </section>
     );
 }

@@ -1,4 +1,22 @@
-
+.logo h1:hover{
+     text-shadow: 0 0 10px green;
+    color: green;
+   
+}
+.logo h1{
+    color: rgb(211, 211, 211);
+}
+.home-icon{
+    color: green;
+    filter: drop-shadow(0 0 10px green)
+    drop-shadow(0 0 10px green);
+    position: fixed;
+    left: 2dvw;
+    top: 0.9dvw;
+}
+.home-icon a{
+    color: green;
+}
 .nav-bar{
     display: flex;
     width: 100dvw;
@@ -135,8 +153,10 @@ margin: 3px 0;
     .logo{
         padding-top: 4dvh;
         padding-left: 1dvw;
+
     
     }
+    
 .top-nav{
     display: flex;
 }

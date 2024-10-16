@@ -21,7 +21,7 @@ export default function Hero() {
                 needs."
               </i>{" "}
             </p>
-            <button className='hireMe-button'>Hire me</button>
+            <button className='hireMe-button'><a href="#contactID">Hire me</a></button>
           </div>
         </div>
       </section>

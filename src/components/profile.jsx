@@ -9,7 +9,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 
 export function Socials() {
   return (
-    <div className="socialMedia">
+    <div  className="socialMedia">
       <a target="_blank" href="https://github.com/abizec-p">
         <FaGithub />
       </a>
