@@ -48,16 +48,27 @@ export default function Contact() {
         </div>
         <div className="contactSocial">
           <div>
-            <FaGithub />
+            <a target="_blank" href="https://github.com/abizec-p">
+              <FaGithub />
+            </a>
           </div>
           <div>
-            <FaLinkedin />
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/abishek-pariyar-004b9b1a0/"
+            >
+              <FaLinkedin />
+            </a>
           </div>
           <div>
-            <FaDribbble />
+            <a target="_blank" href="https://dribbble.com/Abizec">
+              <FaDribbble />
+            </a>
           </div>
           <div>
-            <FaInstagramSquare />
+            <a target="_blank" href="https://www.instagram.com/thejakesproductions/">
+              <FaInstagramSquare />
+            </a>
           </div>
         </div>
       </div>
